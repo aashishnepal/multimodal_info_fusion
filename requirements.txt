@@ -1,0 +1,23 @@
+# Core libraries
+numpy==1.23.5
+scikit-learn==1.2.0
+
+# Audio processing
+librosa==0.10.0
+
+# Video processing
+opencv-python==4.8.0.74
+
+# Deep learning frameworks
+tensorflow==2.13.0
+keras==2.13.1
+
+# Other dependencies
+matplotlib==3.8.0
+
+# To handle system-specific issues
+tensorflow-macos==2.13.0 # For macOS (replace with appropriate version for your OS)
+tensorflow-metal==0.8.0 # For Mac with Apple Silicon GPU support
+
+# Suppress warnings and handle logs
+warnings
